@@ -45,7 +45,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 
 .topbar-area {
     padding: 20px 0;
-    background: #bd632f;
+    background: #EC008C;
     position: relative;
 }
 
@@ -124,7 +124,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 }
 
 .topbar-social ul li a:hover {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 
@@ -134,7 +134,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 
 .header-area {
     position: relative;
-    background: #bd632f;
+    background: #EC008C;
     z-index: 9;
 }
 
@@ -182,7 +182,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 }
 
 .header-menu ul li a:hover {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 .header-menu ul li a::before {
@@ -190,7 +190,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     content: "";
     height: 1px;
     width: 0;
-    background: #bd632f;
+    background: #EC008C;
     bottom: 50px;
     right: 0;
     transition: .5s;
@@ -219,7 +219,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     width: 58px;
     height: 58px;
     border-radius: 50%;
-    background-color: #bd632f;
+    background-color: #EC008C;
     display: inline-block;
     line-height: 63px;
     text-align: center;
@@ -285,7 +285,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     -webkit-box-shadow: 0px 1px 3px rgb(0 0 0 / 30%);
     transition: .5s;
     visibility: hidden;
-    border-top: 2px solid #bd632f;
+    border-top: 2px solid #EC008C;
     opacity: 0;
     z-index: 11;
 }
@@ -310,7 +310,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 
 .header-menu ul .sub-menu ul li a:hover {
     color: #fff;
-    background: #bd632f;
+    background: #EC008C;
 }
 
 .header-menu ul .sub-menu ul li a::before {
@@ -329,6 +329,14 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
     display: none;
 }
 
+.mobile-menu-area {
+    background: #EC008C;
+}
+
+
+.sticky-menu {
+    background: #EC008C !important;
+}
 
 /* Landing page menu css */
 
@@ -337,7 +345,7 @@ header.landing {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #bd632f;
+    background: #EC008C;
     padding: 30px 0;
     position: relative;
     z-index: 1;
@@ -422,7 +430,7 @@ header.landing .sticky-nav {
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-    background: #bd632f;
+    background: #EC008C;
     color: #fff;
     padding: 17px 30px;
     border-radius: 5px;
@@ -484,7 +492,7 @@ header.landing .sticky-nav {
 
 .nontprts-btn.safe a {
     background: #fff;
-    color: #bd632f;
+    color: #EC008C;
 }
 
 .nontprts-btn.safe a:hover{
@@ -626,7 +634,7 @@ video.video-background {
 
 .feature-content h4 a {
     font-size: 24px;
-    color: #334c55;
+    color: #414142;
     font-weight: bold;
     text-decoration: none;
     transition: 0.5s;
@@ -666,7 +674,7 @@ video.video-background {
 .section-sub-titile h4 {
     font-size: 22px;
     line-height: 82px;
-    color: #334c55;
+    color: #414142;
     font-weight: 600;
 }
 
@@ -676,7 +684,7 @@ video.video-background {
 
 .section-main-title h2 {
     font-size: 48px;
-    color: #334c55;
+    color: #414142;
     font-weight: bold;
 }
 
@@ -736,7 +744,7 @@ video.video-background {
     opacity: 0.949;
     font-size: 20px;
     font-weight: 500;
-    color: #334c55;
+    color: #414142;
     margin-bottom: 17px;
     position: relative;
     padding: 0 25px;
@@ -747,7 +755,7 @@ video.video-background {
     content: "";
     width: 9px;
     height: 9px;
-    background-color: #bd632f;
+    background-color: #EC008C;
     left: 0;
     bottom: 8px;
 }
@@ -864,7 +872,7 @@ video.video-background {
     text-decoration: none;
     width: 143px;
     height: 47px;
-    background-color: #bd632f;
+    background-color: #EC008C;
     line-height: 47px;
     text-align: center;
     font-size: 18px;
@@ -876,13 +884,13 @@ video.video-background {
 h4.service-title a {
     font-size: 22px;
     line-height: 22px;
-    color: #334c55;
+    color: #414142;
     font-weight: bold;
     text-decoration: none;
 }
 
 .service-single-box:hover h4.service-title a {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 p.service-discription {
@@ -910,9 +918,9 @@ p.service-discription {
 
 
 .service-text {
-    border: 1px solid #bd632f;
+    border: 1px solid #EC008C;
     width: 587px;
-    height: 57px;
+    height: 67px;
     left: 0;
     right: 0;
     margin: auto;
@@ -922,12 +930,12 @@ p.service-discription {
 
 .service-text h4 {
     font-size: 18px;
-    color: #334c55;
+    color: #414142;
     padding: 17px 22px;
 }
 
 .service-text h4 a {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 
@@ -1012,7 +1020,7 @@ h4.events-title a {
 }
 
 .events-single-box:hover h4.events-title a {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 .events-content-items {
@@ -1023,7 +1031,7 @@ h4.events-title a {
     display: block;
     font-size: 16px;
     line-height: 28px;
-    color: #bd632f;
+    color: #EC008C;
     font-weight: 400;
     margin-bottom: 14px;
 }
@@ -1037,7 +1045,7 @@ h4.events-title a {
     font-size: 16px;
     font-weight: 400;
     color: #ffff;
-    background: #bd632f;
+    background: #EC008C;
     text-decoration: none;
     padding: 19px 53px;
     position: relative;
@@ -1065,7 +1073,7 @@ h4.events-title a {
     height: 110px;
     border-radius: 50%;
     background-color: #ffffff;
-    color: #bd632f;
+    color: #EC008C;
     display: inline-block;
     line-height: 106px;
     font-size: 60px;
@@ -1075,7 +1083,7 @@ h4.events-title a {
 }
 
 .video-icon a:hover {
-    background: #bd632f;
+    background: #EC008C;
     color: #ffffff;
 }
 
@@ -1191,14 +1199,14 @@ h4.events-title a {
 
 .service-items-content h4 a {
     font-size: 28px;
-    color: #334c55;
+    color: #414142;
     font-weight: 500;
     text-decoration: none;
     transition: 0.5s;
 }
 
 .service-items-box:hover .service-items-content h4 a{
-    color: #bd632f;
+    color: #EC008C;
 }
 
 .service-items-content p {
@@ -1211,7 +1219,7 @@ h4.events-title a {
 
 .service-item-btn a {
     font-size: 20px;
-    color: #bd632f;
+    color: #EC008C;
     font-weight: 500;
     text-decoration: none;
     position: relative;
@@ -1220,7 +1228,7 @@ h4.events-title a {
 }
 
 .service-items-box:hover .service-item-btn a{
-    color: #334c55;
+    color: #414142;
 }
 
 
@@ -1239,7 +1247,7 @@ h4.events-title a {
     content: "";
     width: 0px;
     height: 1px;
-    background-color:  #bd632f;
+    background-color:  #EC008C;
     top: 10px;
     left: -160px;
     transition: 0.5s;
@@ -1288,12 +1296,12 @@ h4.events-title a {
 }
 
 .contact-call-title span a {
-    color: #bd632f;
+    color: #EC008C;
     font-size: 22px;
 }
 
 .contact-call-icon i {
-    color: #bd632f;
+    color: #EC008C;
     font-size: 38px;
     margin-right: 30px;
 }
@@ -1308,7 +1316,7 @@ h4.events-title a {
 .contact-items-title h4 {
     font-size: 36px;
     line-height: 60px;
-    color: #334c55;
+    color: #414142;
     font-weight: bold;
     margin-bottom: 22px;
 }
@@ -1378,7 +1386,7 @@ h4.events-title a {
 .testi-title h4 {
     font-size: 24px;
     line-height: 32px;
-    color: #bd632f;
+    color: #EC008C;
     font-weight: 500;
 }
 
@@ -1394,7 +1402,7 @@ h4.events-title a {
 ===================================================*/
 
 .safe-life-area {
-    background: url(../images/resource/safe-bg.png);
+    background: #EC008C;
     height: 429px;
     background-size: cover;
     background-position: center center;
@@ -1505,7 +1513,7 @@ h4.events-title a {
 }
 
 .blog-items-box:hover .blog-title h4 a  {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 .blog-meta {
@@ -1551,7 +1559,7 @@ h4.events-title a {
     height: 100%;
     top: 0;
     right: 0;
-    background: #bd632f;
+    background: #EC008C;
     border-radius: 10px;
     transition: .5s;
 }
@@ -1638,7 +1646,7 @@ h4.events-title a {
     height: 100%;
     content: "";
     bottom: 0;
-    background: #bd632f;
+    background: #EC008C;
     z-index: -1;
     transition: .5s;
     margin: auto;
@@ -1743,7 +1751,7 @@ h4.events-title a {
     content: "";
     width: 100px;
     height: 1px;
-    background: #bd632f;
+    background: #EC008C;
     bottom: 17px;
 }
 
@@ -1763,7 +1771,7 @@ h4.events-title a {
     content: "";
     width: 3px;
     height: 30px;
-    background: #bd632f;
+    background: #EC008C;
     left: 0px;
 }
 
@@ -1791,8 +1799,8 @@ h4.events-title a {
 }
 
 .footer-social ul li a:hover i {
-    color: #bd632f;
-    border: 1px dashed #bd632f;
+    color: #EC008C;
+    border: 1px dashed #EC008C;
 }
 
 .footer-social ul li a i::after {
@@ -1836,12 +1844,12 @@ h4.events-title a {
 }
 
 .footer-wiget-menu ul li a:hover {
-    color: #bd632f;
+    color: #EC008C;
     margin-left: 10px;
 }
 
 .footer-wiget-menu ul li a i {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 /* footer widget photo */
@@ -1899,7 +1907,7 @@ h4.events-title a {
 
 
 .row.line {
-    border-top: 1px dotted #bd632f;
+    border-top: 1px dotted #EC008C;
     padding: 18px 0 8px;
 }
 
@@ -1915,7 +1923,7 @@ h4.events-title a {
 }
 
 .copyright-text p a {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 
@@ -1959,7 +1967,7 @@ h4.events-title a {
     position: absolute;
     left: 0;
     bottom: -173px;
-    background: #bd632f;
+    background: #EC008C;
     padding: 23px 35px;
     border-radius: 5px 5px 0 0;
 }
@@ -2064,7 +2072,7 @@ h4.events-title a {
     right: 0;
     margin: auto;
     transition: all 0.5s linear 0s;
-    background-color: #bd632f;
+    background-color: #EC008C;
     content: "";
     z-index: -1;
 }
@@ -2143,7 +2151,7 @@ h4.events-title a {
     font-size: 24px;
     color: #ffffff;
     font-weight: 600;
-    background: #bd632f;
+    background: #EC008C;
     text-decoration: none;
     padding: 22px 76px;
     transition: .5s;
@@ -2281,7 +2289,7 @@ h4.events-title a {
 }
 
 span.fill {
-    background: #bd632f !important;
+    background: #EC008C !important;
     border-radius: 0px 15px 15px 0px;
 }
 
@@ -2342,7 +2350,7 @@ span.fill {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #bd632f;
+    background: #EC008C;
     border-radius: 50%;
     transform: scale(0);
     transition: .5s;
@@ -2407,7 +2415,7 @@ span.fill {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #bd632f;
+    background: #EC008C;
     transform: scale(0);
     border-radius: 50%;
     z-index: -1;
@@ -2519,7 +2527,7 @@ span.fill {
     width: 0%;
     right: 0;
     margin: auto;
-    background: #bd632f;
+    background: #EC008C;
     z-index: -1;
     border-radius: 3px;
     transition: .5s;
@@ -2551,7 +2559,7 @@ span.fill {
 
 .ba-blog-details-social-icons.two h6 {
     font-size: 18px;
-    color: #bd632f;
+    color: #EC008C;
     font-weight: 400;
     display: inline-block;
     margin-right: 14px;
@@ -2608,7 +2616,7 @@ span.fill {
     bottom: -10px;
     width: 70px;
     height: 3px;
-    background: #bd632f;
+    background: #EC008C;
     content: "";
     left: 0;
 }
@@ -2702,7 +2710,7 @@ span.fill {
     width: 0%;
     right: 0;
     margin: auto;
-    background: #bd632f;
+    background: #EC008C;
     z-index: -1;
     border-radius: 3px;
     transition: .5s;
@@ -2732,7 +2740,7 @@ span.fill {
     bottom: -10px;
     width: 70px;
     height: 3px;
-    background: #bd632f;
+    background: #EC008C;
     content: "";
     left: 0;
 }
@@ -2777,7 +2785,7 @@ span.fill {
     width: 210px;
     height: 60px;
     border-radius: 3px;
-    background-color: #bd632f;
+    background-color: #EC008C;
     border: 0;
     outline: 0;
     font-size: 19px;
@@ -2853,7 +2861,7 @@ button.icons {
     top: 0;
     height: 60px;
     width: 60px;
-    background: #bd632f;
+    background: #EC008C;
     border-radius: 0 3px 3px 0;
 }
 
@@ -2902,7 +2910,7 @@ button.icons {
 }
 
 .recent-widget-meta span i {
-    color: #bd632f;
+    color: #EC008C;
     font-size: 12px;
     margin-right: 8px;
 }
@@ -2916,7 +2924,7 @@ button.icons {
 }
 
 .sidber-widget-recent-post:hover .recent-widget-title h4 a {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 /* widget recent menu */
@@ -2937,7 +2945,7 @@ button.icons {
     width: 0;
     height: 1px;
     transition: all 0.5s linear 0s;
-    background-color: #bd632f;
+    background-color: #EC008C;
     content: "";
     z-index: -1;
 }
@@ -2959,7 +2967,7 @@ button.icons {
 }
 
 .widget-recent-menu ul li a:hover {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 .widget-recent-menu ul li a span {
@@ -2997,7 +3005,7 @@ button.icons {
     width: 0%;
     right: 0;
     margin: auto;
-    background: #bd632f;
+    background: #EC008C;
     z-index: -1;
     border-radius: 3px;
     transition: .5s;
@@ -3021,7 +3029,7 @@ button.icons {
 }
 
 .contact-single-box {
-    background: #bd632f;
+    background: #EC008C;
     padding: 60px 18px 30px;
 }
 
@@ -3134,7 +3142,7 @@ button.icons {
 
 .accordion a.active i {
     color: #fff;
-    background: #bd632f;
+    background: #EC008C;
     border: none;
     margin-bottom: 0;
     transform: rotate(90deg);
@@ -3427,7 +3435,7 @@ ul.accordion ul li a span {
     margin-top: -200px;
     border-radius: 50%;
     text-align: center;
-    background-color: #bd632f;
+    background-color: #EC008C;
     width: 70px;
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
@@ -3511,7 +3519,7 @@ ul.accordion ul li a span {
     background: transparent;
     text-align: center;
     font-size: 24px;
-    color: #bd632f;
+    color: #EC008C;
     padding: 0;
     cursor: pointer;
     -webkit-transition: all 500ms ease;
@@ -3559,7 +3567,7 @@ button.close-search i {
 
 span.flaticon-multiply i {
     display: inline-block;
-    color: #bd632f;
+    color: #EC008C;
 }
 
 
@@ -3600,7 +3608,7 @@ span.flaticon-multiply i {
     text-align: center;
     line-height: 46px;
     font-size: 16px;
-    color: #bd632f;
+    color: #EC008C;
     left: 0;
     top: 0;
     height: 46px;
@@ -3613,7 +3621,7 @@ span.flaticon-multiply i {
 }
 
 .prgoress_scrollup:hover::after {
-    color: #bd632f;
+    color: #EC008C;
 }
 
 .prgoress_scrollup svg path {
@@ -3621,7 +3629,7 @@ span.flaticon-multiply i {
 }
 
 .prgoress_scrollup svg.progress-circle path {
-    stroke: #bd632f;
+    stroke: #EC008C;
     stroke-width: 4;
     box-sizing: border-box;
     transition: all 200ms linear !important;
@@ -3696,7 +3704,7 @@ span.flaticon-multiply i {
 .loader:before,
 .loader:after {
     content: '';
-    border: 1em solid #bd632f;
+    border: 1em solid #EC008C;
     border-radius: 50%;
     width: inherit;
     height: inherit;
