@@ -504,7 +504,7 @@ header.landing .sticky-nav {
 ===================================================*/
 
 .slider-area {
-    background: url(../../images/home-slider/slider-1.jpg);
+    background: url(../../images/home-slider/slider-1.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -513,7 +513,7 @@ header.landing .sticky-nav {
 }
 
 .slider-area.two {
-    background: url(../../images/home-slider/slider-2.jpg);
+    background: url(../../images/home-slider/slider-2.png);
     background-size: cover;
 }
 
@@ -604,7 +604,7 @@ video.video-background {
     content: "";
     height: 105%;
     width: 0;
-    background: url(../images/resource/feature-hover.png);
+    background: url(../../images/feature/feature-alt.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
