@@ -50,7 +50,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 }
 
 .topbar-area .container {
-    max-width: 1420px;
+    max-width: 1120px;
 }
 
 .topbar-area::before {
@@ -151,7 +151,7 @@ Tags: 	agency, Business Agency, Business Consultant, business optimization, comp
 }
 
 .header-area .container {
-    max-width: 1600px;
+    max-width: 1150px;
 }
 
 .header-menu-items {
@@ -604,7 +604,7 @@ video.video-background {
     content: "";
     height: 105%;
     width: 0;
-    background: url(../../images/feature/feature-alt.jpg);
+    background: url(../../images/feature/bitmap.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1688,7 +1688,7 @@ h4.events-title a {
 ===================================================*/
 
 .footer-area {
-    background: url(../images/footer/footer-bg.png);
+    background: url(../../images/footer/footer.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 116px 0 0px;
@@ -1936,7 +1936,7 @@ h4.events-title a {
 
 
 .breatcome-area {
-    background: url(../images/resource/bratcome-bg.jpg);
+    background: url(../../images/home-slider/slider-2.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -3019,7 +3019,7 @@ button.icons {
 <-- Contact Area Css-->
 =================================================================*/
 .contact-area {
-    padding: 120px 0 110px;
+    padding: 20px 0 110px;
 }
 
 .row.contact {
@@ -3717,4 +3717,45 @@ span.flaticon-multiply i {
 
 .loader:before {
     animation-delay: .5s;
+}
+
+
+
+
+
+
+/* General styles for the dropdown */
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0 10px;
+    border: 2px solid #e5e5e5;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    appearance: none; /* Removes default dropdown arrow */
+    -webkit-appearance: none; /* Removes dropdown arrow in Safari */
+    -moz-appearance: none; /* Removes dropdown arrow in Firefox */
+    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="none" stroke="currentColor" stroke-width="1" d="M0 0l2 2 2-2"/></svg>'); /* Custom arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+select:focus {
+    border-color: #ff0078; /* Matches the submit button color */
+    outline: none;
+}
+
+option {
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Style to ensure dropdown arrow aligns properly */
+.form-box select {
+    padding-right: 30px;
 }
